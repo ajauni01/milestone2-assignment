@@ -157,12 +157,127 @@ body {
   color: #FF900E;
 }
 
-
-
+/* different types of feature of products */
 .feature-variations {
 
   font-weight: 400;
   font-size: 16px;
   color: #727272;
   margin-bottom: 15px;
+}
+
+/* start of a new section */
+/* detail product description */
+
+
+.detailed-container {
+  display: flex;
+}
+
+.detailed-sub-container {
+  margin-top: 120px;
+  margin-left: 100px;
+
+}
+
+.feature-detail-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #131313;
+  padding-right: 1050px;
+  margin-bottom: 20px;
+}
+
+.detail-subtitle {
+  padding-bottom: 15px;
+}
+
+.detail-description {
+
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  padding-right: 90px;
+}
+
+.feature-detail-description-container {
+
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  padding-right: 900px;
+  margin-bottom: 30px;
+}
+
+.desktop-mobile {
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  width: 586px;
+  height: 171px;
+  padding: 30px 42px 30px 30px;
+  margin-bottom: 10px;
+}
+
+.drag-drop {
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  width: 586px;
+  height: 171px;
+  padding: 30px 42px 30px 30px;
+  margin-bottom: 10px;
+}
+
+.modern-design {
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  width: 586px;
+  height: 171px;
+  padding: 30px 42px 30px 30px;
+  margin-bottom: 10px;
+}
+
+.easy-edit {
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  width: 586px;
+  height: 171px;
+  padding: 30px 42px 30px 30px;
+  margin-bottom: 10px;
+}
+
+.image-experience img {
+
+  position: absolute;
+  max-width: 650px;
+  height: 1000px;
+  left: 800px;
+  top: 1880px;
+  border-radius: 8px;
+  z-index: 0;
+}
+
+.btn-experience {
+  position: absolute;
+  margin-left: 650px;
+  margin-bottom: 500px;
+  font-size: 15px;
+  color: #FFFFFF;
+  background: #FF900E;
+  border-radius: 8px;
+  padding: 35px 50px;
+  border: none;
+  z-index: 1;
+
+}
+
+.year {
+  font-size: 40px;
 }
