@@ -172,6 +172,9 @@ body {
 
 .detailed-container {
   display: flex;
+
+
+
 }
 
 .detailed-sub-container {
@@ -187,6 +190,9 @@ body {
   padding-right: 1050px;
   margin-bottom: 20px;
 }
+
+/* make a vertical line */
+
 
 .detail-subtitle {
   padding-bottom: 15px;
@@ -360,9 +366,10 @@ body {
 .sponsors {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
+/* make black & white */
 .img-spotify,
 .img-amazon,
 .img-google,
@@ -371,3 +378,21 @@ body {
   filter: grayscale(100%);
   width: 140px;
 }
+
+.final-note {
+  text-align: center;
+  background: #FFF4E7;
+  border-radius: 8px;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 80px;
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #424242;
+  margin-bottom: 40px;
+}
+
+
+@media screen and (max-width:576px) {}
