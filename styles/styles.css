@@ -1,0 +1,168 @@
+:root {
+  --1st-sectionBackground: rgba(255, 144, 14, 0.1);
+
+}
+
+body {
+
+  font-family: 'Work Sans';
+  ;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.banner {
+  margin-top: -50px;
+  width: 100%;
+  height: 100%;
+  max-width: 1550px;
+  height: 1050px;
+
+  background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-title {
+
+
+  font-weight: 700;
+  font-size: 28px;
+  color: #131313;
+  margin-top: 80px;
+}
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+
+  margin-bottom: -100px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.nav-bars>ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+  margin-top: 80px;
+}
+
+.banner-description {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.title,
+.title-part {
+
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  padding: 0 620px;
+
+}
+
+.title-part {
+  padding: 0 100px;
+  margin-bottom: 20px;
+}
+
+.description {
+
+  max-width: 675px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 14px;
+  color: #727272;
+  margin-bottom: 22px;
+}
+
+.btn-primary {
+  font-size: 15px;
+  color: #FFFFFF;
+  background: #FF900E;
+  border-radius: 8px;
+  padding: 16px 18px;
+  border: none;
+
+}
+
+.banner-image img {
+
+  display: block;
+  max-width: 1200px;
+  margin: 30px auto 30px auto;
+}
+
+.banner-image {
+  margin-bottom: 85px;
+}
+
+/* start of main */
+
+.feature-headline-container {
+  display: flex;
+}
+
+/* grid style */
+.feature-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 150px;
+  padding-top: 50px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+
+.feature-hint {
+
+  position: absolute;
+  width: 537px;
+  height: 200px;
+  left: 900px;
+  top: 1300px;
+}
+
+.feature-headline {
+  font-weight: 500;
+  font-size: 45px;
+  padding-right: 100px;
+  padding-bottom: 15px;
+}
+
+.feature-headline .grey-color {
+
+  color: #727272;
+}
+
+.feature-headline .black-color {
+
+  color: #131313;
+}
+
+.feature-headline .orange-color {
+
+  color: #FF900E;
+}
+
+
+
+.feature-variations {
+
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 15px;
+}
